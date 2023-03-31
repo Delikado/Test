@@ -8,7 +8,7 @@ void setup() {
     s = new Sprite (width/2, height/2, 50, 50);
 }
 
-// always runs, at the speed of the frame rate
+// always runs at the speed of the frame rate
 
 void draw() {
     s.update();
