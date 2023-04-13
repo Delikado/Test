@@ -6,6 +6,7 @@ void setup() {
     _SM.spawn(new Invader(250, 50));
     _SM.spawn(new Shooter(200, 50));
     _SM.spawn(new Kamikaze(150,50));
+    _SM.spawn(new Homer(100,50));
 }
 
 void draw() {
