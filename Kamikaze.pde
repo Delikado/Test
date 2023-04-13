@@ -1,9 +1,8 @@
-class Invader extends Sprite {
-    
-    // constructor
-    Invader(float x, float y) {
+class Kamikaze extends Sprite{
+     // constructor
+`   Kamikaze(float x, float y) {
         super(x, y, 40, 40);
-        vel = new PVector(5, 0); // moving right
+        vel = new PVector(_SM.player.pos.x  - this.pos.x, _SM.player.pos.y - this.pos.y);
     }
     
     @Override // change directions left and right
